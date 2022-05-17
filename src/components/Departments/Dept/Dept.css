@@ -1,0 +1,22 @@
+.dept_container{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dept_container div{
+    background-color: #0b0b45;
+    width:80px;
+    height: 80px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dept_container div svg{
+    color: white;
+}
+.dept_container div{
+    color: white;
+}

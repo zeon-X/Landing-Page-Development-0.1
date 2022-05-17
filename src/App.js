@@ -1,42 +1,31 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import About from './components/About/About';
-import Blog from './components/Blog/Blog';
-import Contactus from './components/Contactus/Contactus';
-import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
-import MeetUs from './components/MeetUs/MeetUs';
-import Project from './components/Project/Project';
-import Service2 from './components/Service2/Service2';
+import Footer from './components/Footer/Footer';
 import Services from './components/Services/Services';
+import Blog from './components/Blog/Blog';
+import AppointmentPoster from './components/AppointmentPoster/AppointmentPoster';
+import Departments from './components/Departments/Departments';
+import Suggestion from './components/Suggestion/Suggestion';
+import Service3 from './components/Service3/Service3';
+import WhyWeSpecial from './components/WhyWeSpecial/WhyWeSpecial';
 
 function App() {
 
   return (
-    <div className="App w-full">
+    <div className="App">
       <Header></Header>
-
       <Home></Home>
-      {/* <Services></Services>
-      <Service2></Service2> */}
-      {/* <About></About> */}
+      <Services></Services>
       <Blog></Blog>
-      <Contactus></Contactus>
-
-
-
-      {/* <Routes>
-        <Route path='/' element={<Home />}>
-          <Route path='services' element={<Services/>}/>
-          <Route path='services' element={<Service2/>}/>
-          <Route path='about' element={<About/>}/>
-          <Route path='blog' element={<Blog/>}/>
-          <Route path='contact' element={<Contactus/>}/>
-        </Route>
-      </Routes> */}
-
+      <AppointmentPoster></AppointmentPoster>
+      <Departments></Departments>
+      <Service3></Service3>
+      <WhyWeSpecial></WhyWeSpecial>
+      <Suggestion></Suggestion>
       <Footer></Footer>
+
 
     </div>
   );

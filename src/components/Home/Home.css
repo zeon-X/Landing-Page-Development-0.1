@@ -1,20 +1,26 @@
-.home-container {
+.home_container {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    background-image: url('../../assets/mat-napo-ejWJ3a92FEs-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+
+    color: white;
 }
 
-.home-content {
+.home_content {
     width: 85%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.home-text p {
+/* .home_text p {
     color: white;
-}
+} */
 
-.appointment-btn {
+.appointment_btn {
     padding: 15px 30px;
     border-radius: 30px;
     /* background-color: transparent; */
@@ -23,7 +29,7 @@
     color: white;
 }
 
-.appointment-btn:hover {
+.appointment_btn:hover {
     /* background-color: rgb(0, 162, 255); */
     background-color: transparent;
 }

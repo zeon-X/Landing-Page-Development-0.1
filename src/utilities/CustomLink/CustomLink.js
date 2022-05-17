@@ -5,7 +5,7 @@ const CustomLink = ({to,children}) => {
     const location = useLocation();
     const match = location.pathname===to;
     return (
-        <Link to={to} className={match?"active-nav":""}>{children}</Link>
+        <Link to={to} className={match?"active_nav":""}>{children}</Link>
     );
 };
 

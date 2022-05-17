@@ -3,19 +3,19 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div className='home-container py-10'>
-            <div className='home-content my-7'>
-                <div className='home-text'>
-                    <p className=''>HI! WE ARE ALEEHA TECH BD LIMITED</p>
-                    <p className='my-7 text-5xl'>
-                        <span className='font-bold'>Software Solutions</span>, Data Analysis, Machine Learning, Design And <span className='font-bold'>Consultancy</span> Firm
+        <div className='home_container py-10'>
+            <div className='home_content my-7'>
+                <div className='home_text'>
+                    <p className='text-3xl font-bold'>
+                        অনলাইন সিরিয়াল সিস্টেম</p>
+                    <p className='my-16 text-6xl font-bold'>
+                        সময় বাঁচান, নতুন কিছু এক্সপেরিয়েন্স করুন
                     </p>
-                    <p>
-                        You are one step away to bring your dream ideas to reality. We are here o help you to build software,mobile appkications, data driven solutions.
-                    </p>
-                    <button className='appointment-btn mt-10 mb-10'>Let's Start Planning Together</button>
+                    <button className='appointment_btn mt-6 mb-10 text-2xl font-bold'>
+                        সিরিয়াল দিন
+                    </button>
                 </div>
-                <div className='home-img'>
+                <div className='home_img'>
 
                 </div>
             </div>
